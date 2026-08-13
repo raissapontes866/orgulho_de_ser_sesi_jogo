@@ -12,4 +12,15 @@ Trabalho do SENAI para uma aprensentação
 <img width="500" height="500" alt="Imagem2" src="https://github.com/user-attachments/assets/cd56d418-9182-43ae-9a26-4d0d742424c5" />
 <img width="500" height="500" alt="Imagem3" src="https://github.com/user-attachments/assets/644c3fbf-843f-4b7d-92a6-e71a9d6778f0" />
 <img width="500" height="500" alt="Imagem5" src="https://github.com/user-attachments/assets/f5f53268-41d3-493d-958c-0d63452cc01e" />
+
+#
+-📎LINK DO JOGO:
 http://127.0.0.1:5500/index.html
+#
+
+COLABORADORES:
+#
+-REPOSITÓRIO: Ana Raíssa
+
+-PROGRAMAÇÃO: Laura Maria
+#

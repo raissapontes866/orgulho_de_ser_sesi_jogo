@@ -14,8 +14,7 @@ Trabalho do SENAI para uma aprensentação
 <img width="500" height="500" alt="Imagem5" src="https://github.com/user-attachments/assets/f5f53268-41d3-493d-958c-0d63452cc01e" />
 
 #
--📎LINK DO JOGO:
-http://127.0.0.1:5500/index.html
+-📎LINK DO JOGO: https://raissapontes866.github.io/JOGO-DS-README.MD/
 #
 
 COLABORADORES:

@@ -20,6 +20,12 @@ Trabalho do SENAI para uma apresentação
 # 📎LINK DO CÓDIGO DO JOGO
 [https://github.com/raissapontes866/JOGO-DS-README.MD](https://raissapontes866.github.io/orgulho_de_ser_sesi_jogo/)
 
+# TECNOLOGIAS UTILIZADAS
+- HTML
+- CSS
+- JavaScript
+- Versionamento: GitHub
+- IDE: Visual Studio Code
 
 # COLABORADORES:
 -REPOSITÓRIO: [Ana Raíssa](https://github.com/raissapontes866/)

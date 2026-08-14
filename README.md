@@ -8,7 +8,7 @@ Trabalho do SENAI para uma apresentação
 - 📚 TURMA: 3D
 - 📍LOCAL DE APRESENTAÇÃO: SESI Paulista, Orgulho de Ser Sesi.
 - 📝 PLANEJAMENTO: Pensamos, analisamos e colocamos em prática todo nosso conhecimento em linguagens de programação, para criarmos um jogo.
-- 🎮 COMO FUNCIONA: É um jogo de múltiplas escolhas,sobre bullyng na escola, compersonagens (alunos), e situações onde o usuário (jogador) vai escolher a solução para o problema.
+- 🎮 COMO FUNCIONA: É um jogo de múltiplas escolhas, sobre bullyng na escola, com personagens (alunos), e situações onde o usuário (jogador) vai escolher a solução para o problema.
  #
 <img width="500" height="500" alt="Imagem1" src="/img/jogo01-tela-inicial.png" />
 <img width="500" height="500" alt="Imagem4" src="/img/jogo02-como-funciona.png" />

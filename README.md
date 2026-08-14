@@ -16,7 +16,8 @@ Trabalho do SENAI para uma aprensentação
 #
 -📎LINK DO JOGO: https://raissapontes866.github.io/JOGO-DS-README.MD/
 #
-
+-📎LINK DO CÓDIGO DO JOGO:https://github.com/raissapontes866/JOGO-DS-README.MD
+#
 COLABORADORES:
 #
 -REPOSITÓRIO: Ana Raíssa

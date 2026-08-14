@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Escolhas que Importam</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <!-- =========================
+             TELA INICIAL
+        ========================== -->
+
+        <section id="homeScreen" class="screen home-screen active">
+
+            <div class="background-image"></div>
+
+            <div class="dark-overlay"></div>
+
+            <div class="home-content">
+
+                <div class="number-box">
+                    01
+                </div>
+
+                <div class="game-label">
+                    JOGO:
+                </div>
+
+                <h1>
+                    ESCOLHAS
+                    <br>
+                    <span>QUE IMPORTAM</span>
+                </h1>
+
+                <p class="subtitle">
+                    Um jogo sobre <strong>bullying</strong> na escola
+                    e o poder das suas escolhas.
+                </p>
+
+                <div class="line"></div>
+
+
+                <!-- OBJETIVO -->
+
+                <div class="info">
+
+                    <div class="info-icon">
+                        🎯
+                    </div>
+
+                    <div>
+                        <h3>OBJETIVO</h3>
+
+                        <p>
+                            Conscientizar sobre o bullying no ambiente
+                            escolar, mostrando que nossas escolhas
+                            podem fazer a diferença.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- NOME -->
+
+                <div class="name-area">
+
+                    <label for="playerName">
+                        QUAL É O SEU NOME?
+                    </label>
+
+                    <input
+                        type="text"
+                        id="playerName"
+                        maxlength="30"
+                        placeholder="Digite seu nome"
+                    >
+
+                    <p id="nameError"></p>
+
+                </div>
+
+
+                <!-- BOTÕES -->
+
+                <div class="buttons">
+
+                    <button
+                        id="startButton"
+                        class="primary-button"
+                    >
+                        COMEÇAR JOGO →
+                    </button>
+
+                    <button
+                        id="rankingButton"
+                        class="secondary-button"
+                    >
+                        🏆 RANKING
+                    </button>
+
+                </div>
+
+
+                <div class="database-status">
+                    <span></span>
+                    BANCO DE DADOS LOCAL ATIVO
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             TELA DO JOGO
+        ========================== -->
+
+        <section id="gameScreen" class="screen game-screen">
+
+            <header class="game-header">
+
+                <div class="logo-small">
+                    ESCOLHAS
+                    <span>QUE IMPORTAM</span>
+                </div>
+
+
+                <div class="player-info">
+
+                    <small>JOGADOR</small>
+
+                    <strong id="playerDisplay">
+                        -
+                    </strong>
+
+                </div>
+
+
+                <div class="score-area">
+
+                    <small>EMPATIA</small>
+
+                    <strong id="score">
+                        00
+                    </strong>
+
+                </div>
+
+            </header>
+
+
+            <main class="game-main">
+
+                <!-- PERSONAGEM -->
+
+                <div class="character-section">
+
+                    <div class="character-glow"></div>
+
+                    <div
+                        id="character"
+                        class="character"
+                    >
+                        👧🏾
+                    </div>
+
+                    <div class="character-shadow"></div>
+
+                </div>
+
+
+                <!-- HISTÓRIA -->
+
+                <div class="story-card">
+
+                    <div class="case-number">
+                        SITUAÇÃO
+                        <span id="caseNumber">
+                            01
+                        </span>
+                    </div>
+
+                    <h2 id="storyTitle">
+                        -
+                    </h2>
+
+                    <p id="storyText">
+                        -
+                    </p>
+
+                    <div class="question">
+                        O QUE VOCÊ FAZ?
+                    </div>
+
+                    <div
+                        id="choices"
+                        class="choices"
+                    ></div>
+
+                    <div
+                        id="feedback"
+                        class="feedback"
+                    ></div>
+
+                </div>
+
+            </main>
+
+
+            <!-- RODAPÉ -->
+
+            <footer class="game-footer">
+
+                <div class="progress-info">
+
+                    <span>
+                        PROGRESSO
+                    </span>
+
+                    <span id="progressText">
+                        1 / 5
+                    </span>
+
+                </div>
+
+                <div class="progress-bar">
+
+                    <div
+                        id="progress"
+                        class="progress"
+                    ></div>
+
+                </div>
+
+            </footer>
+
+        </section>
+
+
+
+        <!-- =========================
+             TELA FINAL
+        ========================== -->
+
+        <section id="resultScreen" class="screen result-screen">
+
+            <div class="result-card">
+
+                <div class="result-icon">
+                    ★
+                </div>
+
+                <div class="result-label">
+                    RESULTADO FINAL
+                </div>
+
+                <h1>
+                    SUAS ESCOLHAS
+                    <br>
+                    <span>IMPORTAM.</span>
+                </h1>
+
+                <p id="resultMessage">
+                    -
+                </p>
+
+
+                <div class="final-score">
+
+                    <small>
+                        PONTUAÇÃO DE EMPATIA
+                    </small>
+
+                    <strong id="finalScore">
+                        00
+                    </strong>
+
+                </div>
+
+
+                <div
+                    id="saveMessage"
+                    class="save-message"
+                >
+                    💾 Resultado salvo!
+                </div>
+
+
+                <div class="buttons">
+
+                    <button
+                        id="restartButton"
+                        class="primary-button"
+                    >
+                        JOGAR NOVAMENTE ↻
+                    </button>
+
+                    <button
+                        id="resultRankingButton"
+                        class="secondary-button"
+                    >
+                        🏆 VER RANKING
+                    </button>
+
+                </div>
+
+
+                <div class="tip">
+
+                    <strong>
+                        LEMBRE-SE
+                    </strong>
+
+                    <p>
+                        Se você presenciar bullying,
+                        procure um professor, funcionário
+                        da escola ou outro adulto de confiança.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             TELA RANKING
+        ========================== -->
+
+        <section id="rankingScreen" class="screen ranking-screen">
+
+            <div class="ranking-card">
+
+                <div class="trophy">
+                    🏆
+                </div>
+
+                <h1>
+                    RANKING
+                </h1>
+
+                <p>
+                    Os melhores resultados dos jogadores.
+                </p>
+
+
+                <div
+                    id="rankingList"
+                    class="ranking-list"
+                >
+                    <!-- preenchido pelo JavaScript -->
+                </div>
+
+
+                <div class="statistics">
+
+                    <div>
+                        <strong id="totalPlayers">
+                            0
+                        </strong>
+
+                        <span>
+                            JOGADORES
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong id="totalGames">
+                            0
+                        </strong>
+
+                        <span>
+                            PARTIDAS
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong id="averageScore">
+                            0
+                        </strong>
+
+                        <span>
+                            MÉDIA
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="backButton"
+                    class="primary-button"
+                >
+                    ← VOLTAR
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

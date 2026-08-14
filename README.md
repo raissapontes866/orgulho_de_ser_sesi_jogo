@@ -1,6 +1,9 @@
-### orgulho_de_ser_sesi_readme.md
-Trabalho do SENAI para uma aprensentação
-#
+# JOGO: Escolhas que Importam
+> orgulho_de_ser_sesi
+
+----
+Trabalho do SENAI para uma apresentação
+
 - 📌 GRUPO: Ana Raíssa, Eduardo Vinícius, Laura Maria, Maria Giselly, Maria Julia e Williany Thayná.
 - 📚 TURMA: 3D
 - 📍LOCAL DE APRESENTAÇÃO: SESI Paulista, Orgulho de Ser Sesi.
